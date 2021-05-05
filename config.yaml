@@ -3,7 +3,7 @@
 #
 
 proxy:
-    coll: course
+    coll: search
     ca_name: pywb HTTPS Proxy CA
     ca_file_cache: ./proxy-certs/pywb-ca.pem
     recording: false
@@ -11,7 +11,7 @@ proxy:
     enable_content_rewrite: true
 
 collections:
-    course: $live
+    search: $live
 
 use_js_obj_proxy: true
 enable_memento: true
